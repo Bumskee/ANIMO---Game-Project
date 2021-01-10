@@ -688,7 +688,6 @@ class GameState(arcade.View):
             if self.left_mouse_pressed and not self.player_sprite.is_jumping and not self.player_sprite.is_attacking:
                 self.player_sprite.is_attacking = True
                 self.player_sprite.change_x = 0
-                print(self.player_sprite.center_x)
 
         #Keep track the player location needed for spawning attack hitbox
         self.player_x = self.player_sprite._get_center_x()

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="1.4.3" orientation="orthogonal" renderorder="right-down" width="110" height="35" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="1">
+ <tileset firstgid="1" name="Grounds" tilewidth="64" tileheight="64" tilecount="12" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds0.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds1.png"/>
+  </tile>
+  <tile id="2">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds2.png"/>
+  </tile>
+  <tile id="3">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds3.png"/>
+  </tile>
+  <tile id="5">
+   <image width="64" height="64" source="../Tiles/BlockFillings0.png"/>
+  </tile>
+  <tile id="6">
+   <image width="64" height="64" source="../Tiles/BlockFillings2.png"/>
+  </tile>
+  <tile id="8">
+   <image width="64" height="64" source="../Tiles/BlockFillings6.png"/>
+  </tile>
+  <tile id="9">
+   <image width="64" height="64" source="../Tiles/BlockFillings4.png"/>
+  </tile>
+  <tile id="10">
+   <image width="64" height="64" source="../Tiles/BlockFillings1.png"/>
+  </tile>
+  <tile id="11">
+   <image width="64" height="64" source="../Tiles/BlockFillings3.png"/>
+  </tile>
+  <tile id="12">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds4.png"/>
+  </tile>
+  <tile id="13">
+   <image width="64" height="64" source="../Tiles/FloatingGrounds5.png"/>
+  </tile>
+ </tileset>
+ <tileset firstgid="15" name="DeathFog" tilewidth="64" tileheight="64" tilecount="2" columns="0">
+  <grid orientation="orthogonal" width="1" height="1"/>
+  <tile id="0">
+   <image width="64" height="64" source="../Tiles/DeathFog0.png"/>
+  </tile>
+  <tile id="1">
+   <image width="64" height="64" source="../Tiles/DeathFog1.png"/>
+  </tile>
+ </tileset>
+ <layer id="1" name="Walls" width="110" height="35">
+  <data encoding="base64" compression="zlib">
+   eJztmIEKgyAQhm2Doq2H3qPvBgvCPFPz9K7+Dw6CwsrP/yhH59zo1eTcx4Fu0PzvnKQUvPUF3mwCbzaBN5vAm03gzSbwZhN4swm82aTU20zenlQPOg7VAK+iIG82aeGNsocMVgZ5s0kvb8jgOZA3eQZXf31q8rZQvf+1eOPHzt0RTd62z+KPHzuniaP+Xyt71r2tObxbBlt42/Y4rl403hwZn/M2MddLwL1H6ZoJZa9krqS8layNM97WXlV7L4d7j5prpjRHqfXb5yLv7JpYAnPbypsUV/CWM++avXHfEX6/ivUmeNOTt5xnhrc23lK+xeFNn7cU4E2Ht9z/XXjT4S0XeOvn7cyeErwhb1L3hbc98AZvUvc9Ks3AG7yFxoU3GeCNry8KN1gh
+  </data>
+ </layer>
+ <layer id="2" name="DeathFog" width="110" height="35">
+  <data encoding="base64" compression="zlib">
+   eJzt1kEKwCAMAEF/YP//2l4FoRVNi5EZyFERF8FSAAAAAAAAAADOdjVDHrUZ8njq5h3u66mbd/id1TeRqdsVNDtYvdtM3WrQ7EA33aL3jqZbv163f+mm28jeUX+6mX+dbv360W5RdzdzZt369bqdQ7ecdMtJt3c3xXkYfg==
+  </data>
+ </layer>
+</map>

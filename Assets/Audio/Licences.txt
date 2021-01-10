@@ -1,0 +1,25 @@
+#Lisence : CC-BY 3.0
+
+Sound : Spell 2
+By : Bart Kelsey
+
+Sound : gruntsound
+Sound : cut_grunt2
+by : n3b
+
+Sound : lose sound 1-0
+by: remaxim
+
+Sound : ghost
+by : Vinrax
+
+Sound: Menu A_select
+by : Virix
+
+#License : OGA-BY 3.0
+Sound = Lost
+by : Ezduzzitech
+
+#Personal Use
+sound : burn_no_autostart
+by : partners in rhyme

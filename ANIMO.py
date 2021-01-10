@@ -700,7 +700,6 @@ class GameState(arcade.View):
                 key.remove_from_sprite_lists()
                 arcade.play_sound(self.collect_key)
                 self.collected_key += 1
-                print(self.collected_key)
 
         #Creates a hitbox when the character attacks depending on the character direction
         if self.player_sprite.is_attacking and self.player_sprite.attack_texture == 2 * AnimationSpeed:
